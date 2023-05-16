@@ -1,0 +1,786 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+
+.main{
+    width:100vw ;
+    height: 100vh;
+}
+
+.header{
+    background-image: url("Untitled\ design\(4\).png");
+    height: 100vh;
+    width: 1000px,
+     cover;
+    background-position: center center;
+    flex-wrap: wrap;
+display: flex;
+
+    background-image:( rgba(0,0,0,0.7), rgba(0,0,0,0.));
+}
+
+.back{
+  background-image: url(Untitled\ design\(5\).png);
+ }
+/* Nav */
+nav{
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 75px;
+ background: #425a4c;
+ box-shadow: 0 12px 10px rgba(0, 0, 0, 0.1);
+}
+nav .navbar{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ max-width: 90%;
+ background: #425a4c;
+ margin: auto;
+}
+nav .navbar .logo a{
+  color: #fff;
+  font-size: 60px;
+  font-weight: 600;
+  text-decoration: none;
+}
+nav .navbar .menu{
+  display: flex;
+}
+.navbar .menu li{
+  list-style: none;
+  margin: 0 15px;
+}
+.navbar .menu li a{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav.items{
+  display: block;
+  justify-content: space-around;
+}
+
+section{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #96c7e8;
+  font-size: 70px;
+}
+
+.button a{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background: #2980b9;
+  padding: 7px 12px;;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+}
+ 
+.navbar-brand{
+  font-size: 60px;
+}
+
+
+
+
+/* Welcome To Tacks */
+.para{
+    color: rgb(248, 210, 88);
+    font-size: 90px;
+}
+
+.welcome{
+
+
+font-family: 'Instrument Serif', serif;
+
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 40px;
+    font-family: 'Instrument Serif', serif;
+    color: rgb(211, 242, 214);
+  
+}
+
+
+
+/* If screen size is more than 600px wide, set the font-size of <div> to 80px */
+@media screen and (min-width: 600px) {
+  .content h1 {
+    font-size: 100px;
+  }
+}
+
+/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .content h1 {
+    font-size: 50px;
+  }
+}
+
+
+
+.content p{
+    padding: 0px 70px;
+    font-size: 25px;
+}
+
+
+/* phone */
+button{
+    background: none;
+    color: #000000;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px 25px;
+    margin-top: 30px;
+    transition: 0.5 all ease;
+   
+}
+
+button:hover{
+    background-color: rgb(143, 95, 95);
+    color: #fff;
+}
+
+.call{
+    color: rgb(255, 255, 255);
+    border: 10px solid;
+    
+}
+
+
+.phone{
+    color: rgb(239, 239, 239);
+    border: none;
+    text-decoration: none;
+}
+
+
+/* Soft Drinks */
+.columns-soft {
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #615757a5;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 28px;
+  font-size: 23px;
+}
+
+.so{
+  display: flex;
+  justify-content: center;
+  color: #ccd6c5;
+
+
+}
+
+
+/* Beer */
+.columns-beer {
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #615757a5;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 28px;
+  font-size: 23px;
+}
+
+.be{
+display: flex;
+justify-content: center;
+color: #ccd6c5;
+font-size: 30px;
+}
+
+.ber{
+display: flex;
+justify-content: center;
+color: #dcb265;
+font-size: 33px;
+height: 80px;
+}
+
+
+
+/* Wine */
+.columns-wine {
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #615757a5;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 20px;
+  font-size: 23px;
+}
+
+.wie{
+  display: flex;
+  justify-content: center;
+  color: #f1b68c;
+}
+
+
+/* 2nd page */
+
+
+  
+
+  
+  
+
+  /* Burgers */
+
+ .burgers{
+  font-size: 20px;
+  background-color: #414d54c2;
+  border-radius: 10px;
+  z-index:-0.5 ;
+ }
+
+.columns {
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-auto-flow: row;
+    gap: 2em;
+    background-color: #615757a5;
+    color: #ffffff;
+    list-style: none;
+    border-radius: 20px;
+    font-size: 23px;
+  }
+
+  .bu{
+    display: flex;
+    justify-content: center;
+    color: #dcb265;
+    font-size: 23px;
+  }
+ 
+.bur{
+  display: flex;
+  justify-content: center;
+  color: #ccd6c5; 
+  font-size: 23px;
+}
+
+
+
+
+ /* bootstrap */
+
+ .container-fluid{
+  color: #a10000;
+ }
+
+ /* Wings */
+
+.columns-wings {
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-auto-flow: row;
+    gap: 2em;
+    background-color: #615757a5;
+    color: #ffffff;
+    list-style: none;
+    border-radius: 20px;
+    font-size: 23px;
+  }
+
+ .bone{
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  color: #dcb265;
+ } 
+ .wings{
+  font-size: 20px;
+  background-color: #414d54c2;
+  border-radius: 10px;
+  font-size: 23px;
+  color: #ffffff; 
+ }
+
+ .boneless{
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  color: #dcb265;
+ }
+
+ .flavors{
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  color: #dcb265;
+ }
+
+ .flavors-sauce{
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  color: #ccd6c5; 
+ }
+
+.house{
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  color: #dcb265;
+}
+
+
+.wi{
+  display: flex;
+  justify-content: center;
+  color: #ccd6c5; 
+
+}
+
+/* Lunch Menu */
+.columns-lunch{
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #414d54c2;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 20px;
+  font-size: 23px;
+  z-index: 1;
+}
+
+
+.lu{
+  display: flex;
+  justify-content: center;
+  color: #dcb265;
+}
+.lun{
+  display: flex;
+  justify-content: center;
+  color: #ccd6c5; 
+}
+
+ /* Dinners */
+
+ .columns-dinner{
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #414d54c2;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 20px;
+  font-size: 23px;
+}
+
+
+.di{
+  display: flex;
+  justify-content: center;
+  color: #dcb265;
+}
+.din{
+  display: flex;
+  justify-content: center;
+  color: #ccd6c5; 
+}
+
+
+
+/*apps */
+
+.columns-apps{
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #414d54c2;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 20px;
+}
+
+.ap{
+  display: flex;
+  justify-content: center;
+  color: #dcb265;
+  font-size: 23px;
+}
+.aps{
+  display: flex;
+  justify-content: center;
+  color: #ccd6c5; 
+  font-size: 23px;
+}
+
+
+/* Pierogies */
+
+.columns-pie{
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #414d54c2;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 20px;
+  font-size: 23px;
+}
+
+.hand, .and, .price, .ask{
+  display: flex;
+  justify-content: center;
+  color: #ccd6c5;
+}
+
+.we{
+  display: flex;
+  justify-content: center;
+  color: #dcb265;
+}
+
+/* Pizza */
+
+.columns-pizza{
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #414d54c2;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 20px;
+  font-size: 23px;
+}
+
+.pa{
+  display: flex;
+  justify-content: center;
+  color: #ccd6c5;
+}
+.pas{
+  display: flex;
+  justify-content: center;
+  color: #dcb265;
+}
+
+/* Salads */
+
+.columns-salads{
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #414d54c2;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 20px;
+  font-size: 23px;
+}
+
+.sal{
+  display: flex;
+  justify-content: center;
+  color: #ccd6c5;
+}
+
+.sals{
+  display: flex;
+  justify-content: center;
+  color: #dcb265;
+}
+
+
+/* Wraps */
+
+.columns-wraps{
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #414d54c2;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 20px;
+  font-size: 23px;
+}
+
+.wra{
+  display: flex;
+  justify-content: center;
+  color: #dcb265;
+}
+.wras{
+  display: flex;
+  justify-content: center;
+  color: #ccd6c5;
+}
+.wrase{
+  display: flex;
+  justify-content: center;
+  color: #eb9e6fc2;
+}
+
+/* Sandwiches */
+
+
+.columns-sand{
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #414d54c2;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 20px;
+  font-size: 23px;
+}
+
+.consume{
+  display: flex;
+  justify-content: center;
+  color: #b7d14e;
+}
+
+.sa{
+  display: flex;
+  justify-content: center;
+  color: #dcb265;
+}
+
+.saa{
+  display: flex;
+  justify-content: center;
+  color: #eb9e6fc2;
+
+}
+
+.sas{
+  display: flex;
+  justify-content: center;
+  color: #ccd6c5;
+}
+
+
+/* Snack At Tacks */
+.columns-snack{
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #414d54c2;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 20px;
+  font-size: 23px;
+}
+
+.sna{
+  display: flex;
+  justify-content: center;
+  color: #dcb265;
+}
+.snac{
+  display: flex;
+  justify-content: center;
+  color: #ccd6c5;
+}
+
+/* Soups */
+.columns-soups{
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #414d54c2;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 20px;
+  font-size: 23px;
+}
+
+.soup{
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  color: #dcb265;
+}
+.soupe{
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  color: #ccd6c5;
+}
+
+/* Sides */
+.columns-sides{
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #414d54c2;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 20px;
+  font-size: 23px;
+}
+
+.side{
+ font-size: 23px;
+ display: flex;
+ justify-content: center;
+ color: #ccd6c5;                  
+}
+
+
+ .title{
+  display: flex;
+  justify-content: center;
+  background-color: #96c7e8a5;
+  border-radius: 20px;
+  font-size: 40px;
+  font-family: 'Dancing Script', sans-serif;
+ }
+
+/* about us */
+ .columns-about{
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #414d54c2;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 20px;
+  font-size: 23px;
+}
+
+.abt{
+  display: flex;
+  justify-content: center;
+  font-family: 'Instrument Serif', serif;
+  color: #ccd6c5;                  
+
+}
+.ab{
+  display: flex;
+  justify-content: center;
+  font-family: 'Instrument Serif', serif;
+  color: #ccd6c5;                  
+
+}
+.abou{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  
+}
+
+
+/* If screen size is more than 620px wide */
+@media screen and (min-width: 620px) {
+  .abou {
+    height: 400px;
+  }
+}
+
+/* If screen size is 600px wide, or less */
+@media screen and (max-width: 619px) {
+  .abou {
+    height: 150px;
+  }
+}
+
+
+
+/* Careers */
+
+.columns-ca{
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2em;
+  background-color: #414d54c2;
+  color: #ffffff;
+  list-style: none;
+  border-radius: 20px;
+  font-size: 23px;
+}
+
+.careers{
+  display: flex;
+  justify-content: center;
+  color: #f55959c2;
+
+}
+
+.car{
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+ color: #ccd6c5;                  
+
+}
+
+
+.dropdown-menu::after{
+  background-image: none;
+}

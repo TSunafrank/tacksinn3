@@ -1,0 +1,229 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+
+.main{
+    width:100vw ;
+    height: 100vh;
+}
+
+.header{
+    background-image: url("Untitled\ design\(4\).png")
+     cover;
+    background-position: center center;
+    flex-wrap: wrap;
+display: flex;
+
+    
+}
+
+/* Nav */
+
+ .navbar-brand{
+  font-size: 60px;
+ margin-right: 4rem;
+ color: #d3f2d6;
+ font-family: 'Instrument Serif', serif;
+ }
+
+.nav-link.active{
+  font-size: 30px;
+}
+
+.nav-link{
+  font-size: 30px;
+}
+
+.navbar-toggler{
+    position: relative; left: -20px; top: -25px;
+}
+
+/* Welcome To Tacks */
+.para{
+    color: rgb(248, 210, 88);
+    font-size: 90px;
+}
+
+.welcome{
+margin-bottom: 10px;
+font-size: 90px;
+}
+
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    text-align: center;
+    font-size: 90px;
+    z-index: 152;
+}
+
+
+
+
+/* phone */
+button{
+    background: none;
+    color: #000000;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px 25px;
+    margin-top: 30px;
+    transition: 0.5 all ease;
+}
+
+button:hover{
+    background-color: rgb(143, 95, 95);
+    color: #fff;
+}
+
+.call{
+    color: rgb(255, 255, 255);
+    border: 10px solid;
+}
+
+
+.phone{
+    color: rgb(239, 239, 239);
+    border: none;
+}
+
+
+
+ /* bootstrap */
+
+ 
+
+
+
+ .bears{
+  background-color: #e9efb4ad;
+  height: 15rem;
+  border: 6px solid;
+  box-shadow: 10px 10px 25px 10px  rgb(21, 21, 21);
+ shape-outside: inset(100px, 100px, 00px, 20px);
+ border-radius: 100px;
+ z-index: 1;
+ }
+
+ /* facebook */
+
+ ion-icon{
+   color: rgb(195, 214, 252);
+ }
+
+ /* schedule */
+
+ .schedule{
+    margin: 10px;
+ color: #d3f2d6;
+
+ }
+
+ /* footer */
+
+ .footer-distributed {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 25px;
+    margin: 0;
+  }
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+  }
+  
+  .footer-distributed .footer-right a {
+    display: inline-block;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition:all .25s;
+  }
+  
+  .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+  
+  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+  
+
+  .fb{
+    background-image: none;
+}
+
+.dropdown-menu.show{
+    z-index: 200;
+    position: relative;
+}
+
+
+  /* Media Queries */
+  
+  @media (max-width: 600px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+      text-align: center;
+    }
+    .footer-distributed .footer-right {
+      float: none;
+      margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+      line-height: 1.8;
+    }
+  }
